@@ -9,4 +9,7 @@ public enum Tipo {
 		this.codigo = codigo;
 		this.nombre = nombre;
 	}
+	private Tipo(int codigo){
+		this.codigo=codigo;
+	}
 }
